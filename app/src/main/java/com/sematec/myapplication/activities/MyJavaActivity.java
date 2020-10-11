@@ -1,10 +1,11 @@
-package com.sematec.myapplication;
+package com.sematec.myapplication.activities;
 
 import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.sematec.myapplication.R;
 
-public class MyTestJavaActivity extends AppCompatActivity {
+public class MyJavaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

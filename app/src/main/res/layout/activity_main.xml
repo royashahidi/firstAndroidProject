@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
+        tools:context=".activities.MainActivity"
         android:gravity="center_horizontal|bottom"
         android:orientation="vertical">
 
@@ -25,6 +25,7 @@
                 android:text="First name:"/>
 
         <EditText
+                android:id="@+id/txtFirstName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
@@ -67,11 +68,13 @@
             android:layout_height="wrap_content"
             android:layout_margin="50dp">
         <Button
+                android:id="@+id/btnRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Register"/>
         <Button
+                android:id="@+id/btnCansel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
