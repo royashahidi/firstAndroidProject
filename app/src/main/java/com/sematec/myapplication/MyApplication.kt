@@ -2,6 +2,7 @@ package com.sematec.myapplication
 
 import android.app.Application
 import android.content.Context
+import com.orhanobut.hawk.Hawk
 import timber.log.Timber
 
 
@@ -14,8 +15,8 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        Hawk.init(this).build()
         context = this
-
         if( BuildConfig.DEBUG){
             Timber.plant(Timber.DebugTree())
         }
