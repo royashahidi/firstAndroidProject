@@ -19,6 +19,8 @@
         <activity android:name=".activities.DestinationActivity">
         </activity>
         <activity android:name=".activities.LoginActivity">
+        </activity>
+        <activity android:name=".activities.RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
